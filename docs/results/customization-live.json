@@ -1,0 +1,20 @@
+{
+  "kind": "synthetic-customization-run-reception",
+  "date": "2026-11-03T10:55:42.355Z",
+  "clients": 2,
+  "passed": [
+    "female/male profiles with height and weight extremes",
+    "appearance patch received by observer",
+    "invalid height rejected",
+    "run input and running state",
+    "real running from road to reception",
+    "NPC proximity validation",
+    "private scripted greeting and live seat response",
+    "NPC absent from player count and room chat",
+    "clean leave"
+  ],
+  "limits": [
+    "No browser preview, GPU, touch or visual inspection",
+    "Drunk running and body geometry checked in controlled unit tests"
+  ]
+}

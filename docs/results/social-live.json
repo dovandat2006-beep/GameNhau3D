@@ -1,0 +1,27 @@
+{
+  "kind": "synthetic-functional-social",
+  "date": "2026-11-03T09:48:22.171Z",
+  "clients": 3,
+  "transport": "Socket.IO through Vite :5173",
+  "passed": [
+    "road spawn and walk through entrance",
+    "walking and pickup",
+    "table invitation delivery",
+    "5 completed drinks => level 1",
+    "both ramps and elevated rear stage",
+    "simultaneous hiphop and krump",
+    "consented dance-off",
+    "seated spectator vote",
+    "duplicate vote rejected",
+    "20-second authoritative result",
+    "automatic real-time recovery without clearing total",
+    "smoking effect received by another client",
+    "walking cancels smoking",
+    "reset intoxication",
+    "clean leave"
+  ],
+  "limits": [
+    "No browser/GPU/audio-device inspection",
+    "Not an SFU or 100-device load test"
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "file": "concrete-diff.jpg",
+    "asset": "concrete_floor_worn_001",
+    "map": "diff",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/concrete_floor_worn_001"
+  },
+  {
+    "file": "concrete-nor_gl.jpg",
+    "asset": "concrete_floor_worn_001",
+    "map": "nor_gl",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/concrete_floor_worn_001"
+  },
+  {
+    "file": "concrete-rough.jpg",
+    "asset": "concrete_floor_worn_001",
+    "map": "rough",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_rough_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/concrete_floor_worn_001"
+  },
+  {
+    "file": "plaster-diff.jpg",
+    "asset": "yellow_plaster",
+    "map": "diff",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/yellow_plaster/yellow_plaster_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/yellow_plaster"
+  },
+  {
+    "file": "plaster-nor_gl.jpg",
+    "asset": "yellow_plaster",
+    "map": "nor_gl",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/yellow_plaster/yellow_plaster_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/yellow_plaster"
+  },
+  {
+    "file": "plaster-rough.jpg",
+    "asset": "yellow_plaster",
+    "map": "rough",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/yellow_plaster/yellow_plaster_rough_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/yellow_plaster"
+  },
+  {
+    "file": "asphalt-diff.jpg",
+    "asset": "asphalt_02",
+    "map": "diff",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/asphalt_02"
+  },
+  {
+    "file": "asphalt-nor_gl.jpg",
+    "asset": "asphalt_02",
+    "map": "nor_gl",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/asphalt_02"
+  },
+  {
+    "file": "asphalt-rough.jpg",
+    "asset": "asphalt_02",
+    "map": "rough",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_rough_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/asphalt_02"
+  },
+  {
+    "file": "metal-diff.jpg",
+    "asset": "corrugated_iron_02",
+    "map": "diff",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/corrugated_iron_02/corrugated_iron_02_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/corrugated_iron_02"
+  },
+  {
+    "file": "metal-nor_gl.jpg",
+    "asset": "corrugated_iron_02",
+    "map": "nor_gl",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/corrugated_iron_02/corrugated_iron_02_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/corrugated_iron_02"
+  },
+  {
+    "file": "metal-rough.jpg",
+    "asset": "corrugated_iron_02",
+    "map": "rough",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/corrugated_iron_02/corrugated_iron_02_rough_1k.jpg",
+    "license": "CC0-1.0",
+    "asset_page": "https://polyhaven.com/a/corrugated_iron_02"
+  }
+]

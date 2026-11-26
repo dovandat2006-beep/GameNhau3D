@@ -1,0 +1,18 @@
+{
+  "kind": "isolated-synthetic-rest-feedback",
+  "date": "2026-11-03T11:20:44.896Z",
+  "clients": 2,
+  "passed": [
+    "lying state received by observer",
+    "stand clears lying",
+    "feedback acknowledged after durable write",
+    "rate limit enforced",
+    "feedback absent from room chat",
+    "private data URL not served",
+    "feedback survives a restarted server"
+  ],
+  "limits": [
+    "Temporary test data only; production feedback untouched",
+    "No browser/GPU visual inspection"
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "kind": "synthetic-socket-load",
+  "date": "2026-11-03T08:46:25.037Z",
+  "seconds": 45,
+  "clients": 100,
+  "rejected101": true,
+  "clientsThatMoved": 100,
+  "clientsThatChatted": 100,
+  "serverConfirmedMetres": 3130,
+  "seated": 85,
+  "unseated": [
+    {
+      "seat": {
+        "table": 1,
+        "index": 0
+      },
+      "position": {
+        "x": -18.78,
+        "z": -4.48
+      },
+      "next": {
+        "x": -19,
+        "z": -6
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 1,
+        "index": 4
+      },
+      "position": {
+        "x": -20.94,
+        "z": 24.71
+      },
+      "next": {
+        "x": -20,
+        "z": 25
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 1,
+        "index": 5
+      },
+      "position": {
+        "x": -20.82,
+        "z": 25.51
+      },
+      "next": {
+        "x": -20,
+        "z": 26
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 4,
+        "index": 1
+      },
+      "position": {
+        "x": 12,
+        "z": 26.37
+      },
+      "next": {
+        "x": 12,
+        "z": 25
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 4,
+        "index": 2
+      },
+      "position": {
+        "x": 12,
+        "z": 26.3
+      },
+      "next": {
+        "x": 12,
+        "z": 25
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 7,
+        "index": 0
+      },
+      "position": {
+        "x": 4.8,
+        "z": 7.42
+      },
+      "next": {
+        "x": 5,
+        "z": 6
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 8,
+        "index": 1
+      },
+      "position": {
+        "x": 12,
+        "z": 26.3
+      },
+      "next": {
+        "x": 12,
+        "z": 25
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 8,
+        "index": 2
+      },
+      "position": {
+        "x": 12,
+        "z": 26.39
+      },
+      "next": {
+        "x": 12,
+        "z": 25
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 12,
+        "index": 0
+      },
+      "position": {
+        "x": 12.63,
+        "z": 15.85
+      },
+      "next": {
+        "x": 13,
+        "z": 15
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 12,
+        "index": 1
+      },
+      "position": {
+        "x": 13,
+        "z": 23.32
+      },
+      "next": {
+        "x": 13,
+        "z": 22
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 12,
+        "index": 2
+      },
+      "position": {
+        "x": 13,
+        "z": 23.32
+      },
+      "next": {
+        "x": 13,
+        "z": 22
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 12,
+        "index": 3
+      },
+      "position": {
+        "x": 11,
+        "z": 19.31
+      },
+      "next": {
+        "x": 10,
+        "z": 19
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 16,
+        "index": 0
+      },
+      "position": {
+        "x": 12,
+        "z": 26.37
+      },
+      "next": {
+        "x": 12,
+        "z": 25
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 16,
+        "index": 1
+      },
+      "position": {
+        "x": 12,
+        "z": 26.3
+      },
+      "next": {
+        "x": 12,
+        "z": 25
+      },
+      "failures": 0
+    },
+    {
+      "seat": {
+        "table": 16,
+        "index": 2
+      },
+      "position": {
+        "x": 12,
+        "z": 26.38
+      },
+      "next": {
+        "x": 12,
+        "z": 25
+      },
+      "failures": 0
+    }
+  ],
+  "roundsStarted": 17,
+  "commands": 957,
+  "commandP50ms": 9,
+  "commandP95ms": 41,
+  "commandP99ms": 63,
+  "snapshots": 41400,
+  "snapshotMB": 106.36,
+  "peakRssMB": 135,
+  "peakEventLoopP99ms": 40,
+  "metrics": [
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 104,
+      "heapMB": 32,
+      "eventLoopP99ms": 40,
+      "outKBs": 4957,
+      "packetsPerSecond": 922,
+      "cpu": {
+        "user": 1458353,
+        "system": 263556
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 104,
+      "heapMB": 42,
+      "eventLoopP99ms": 29,
+      "outKBs": 3480,
+      "packetsPerSecond": 980,
+      "cpu": {
+        "user": 2066067,
+        "system": 421498
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 99,
+      "heapMB": 43,
+      "eventLoopP99ms": 26,
+      "outKBs": 2946,
+      "packetsPerSecond": 1000,
+      "cpu": {
+        "user": 2478379,
+        "system": 553923
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 99,
+      "heapMB": 36,
+      "eventLoopP99ms": 27,
+      "outKBs": 2565,
+      "packetsPerSecond": 980,
+      "cpu": {
+        "user": 2947479,
+        "system": 712499
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 92,
+      "heapMB": 35,
+      "eventLoopP99ms": 28,
+      "outKBs": 2176,
+      "packetsPerSecond": 1000,
+      "cpu": {
+        "user": 3396467,
+        "system": 841108
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 134,
+      "heapMB": 35,
+      "eventLoopP99ms": 28,
+      "outKBs": 1856,
+      "packetsPerSecond": 980,
+      "cpu": {
+        "user": 3756948,
+        "system": 1012600
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 135,
+      "heapMB": 38,
+      "eventLoopP99ms": 27,
+      "outKBs": 1795,
+      "packetsPerSecond": 980,
+      "cpu": {
+        "user": 4076728,
+        "system": 1128779
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 114,
+      "heapMB": 41,
+      "eventLoopP99ms": 28,
+      "outKBs": 1786,
+      "packetsPerSecond": 980,
+      "cpu": {
+        "user": 4376429,
+        "system": 1234675
+      }
+    },
+    {
+      "kind": "metrics",
+      "rooms": 1,
+      "players": 100,
+      "rssMB": 111,
+      "heapMB": 26,
+      "eventLoopP99ms": 30,
+      "outKBs": 1785,
+      "packetsPerSecond": 980,
+      "cpu": {
+        "user": 4704617,
+        "system": 1336762
+      }
+    }
+  ],
+  "limitations": [
+    "Simulated clients on one machine, not 100 human devices",
+    "No GPU rendering or SFU/audio load",
+    "Short functional load run, not endurance or Internet latency test"
+  ]
+}

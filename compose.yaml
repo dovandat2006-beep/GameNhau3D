@@ -1,0 +1,38 @@
+# Linux VPS: one room owner process. Configure .env and deploy/livekit.yaml first.
+services:
+  game:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      HOST: 127.0.0.1
+      PORT: 3001
+      TRUST_PROXY: loopback
+    network_mode: host
+    volumes:
+      - game_data:/app/data
+    init: true
+  livekit:
+    image: livekit/livekit-server:v1.13.11
+    command: --config /etc/livekit.yaml
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./deploy/livekit.yaml:/etc/livekit.yaml:ro
+      - ./deploy/certs:/certs:ro
+  caddy:
+    image: caddy:2.10-alpine
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      GAME_DOMAIN: ${GAME_DOMAIN}
+      VOICE_DOMAIN: ${VOICE_DOMAIN}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  game_data:
+  caddy_data:
+  caddy_config:

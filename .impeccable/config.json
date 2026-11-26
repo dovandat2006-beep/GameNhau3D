@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "client/style.css"
+        ],
+        "createdAt": "2026-11-03T11:54:09.143Z",
+        "reason": "Agent: the sole detected border is .mini-avatar i border-top:7px solid var(--color-hair), which draws hair on the small character head, not an accent on a rounded card."
+      }
+    ]
+  }
+}

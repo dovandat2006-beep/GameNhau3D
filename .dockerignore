@@ -1,0 +1,13 @@
+node_modules
+dist
+.git
+.env
+.env.*.local
+deploy/certs
+artifacts
+
+data/
+
+.runtime/
+deploy/livekit.local.yaml
+deploy/livekit.yaml

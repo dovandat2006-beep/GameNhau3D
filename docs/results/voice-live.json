@@ -1,0 +1,25 @@
+{
+  "kind": "real-local-livekit-synthetic-audio",
+  "date": "2026-11-03T12:23:00.867Z",
+  "gameClients": 3,
+  "rtcPeers": 3,
+  "decodedAudioFrames": 190,
+  "nonzeroAudio": true,
+  "otherTableTracks": 0,
+  "passed": [
+    "seated authorization",
+    "zero initial media rights",
+    "signed webhook revalidation and grant",
+    "generated audio published through SFU",
+    "same-table peer receives decoded nonzero audio",
+    "different table receives no track",
+    "unpublish removes audio",
+    "standing revokes old channel generation",
+    "clean leave"
+  ],
+  "limits": [
+    "Generated tone, not physical microphones or speaker-device listening",
+    "PTT release/connection/permission/device races tested with client unit mocks",
+    "No browser permissions-dialog, GPU, WAN or TURN acceptance"
+  ]
+}

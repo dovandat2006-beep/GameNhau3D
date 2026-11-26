@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*.local
+*.log
+artifacts/
+.impeccable/questions/
+deploy/livekit.yaml
+deploy/certs/*
+!deploy/certs/.gitkeep
+
+data/
+
+.runtime/
+deploy/livekit.local.yaml

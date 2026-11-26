@@ -1,0 +1,49 @@
+{
+  "name": "quan-nhau-dau-hem",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx scripts/dev.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "node --import tsx server/index.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:load": "node --import tsx tests/load.ts",
+    "check": "tsc --noEmit",
+    "feedback:report": "node --import tsx scripts/feedback-report.ts",
+    "voice:local": "node --import tsx scripts/local-voice.ts",
+    "test:voice": "node --import tsx tests/voice-live.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "livekit-client": "^2.15.0",
+    "livekit-server-sdk": "^2.13.0",
+    "lucide-react": "^0.468.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "three": "^0.180.0",
+    "tsx": "^4.19.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@livekit/rtc-node": "^1.2.1",
+    "@types/express": "^5.0.0",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "concurrently": "^9.1.2",
+    "jsdom": "^30.1.3",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0"
+  }
+}
